@@ -1,6 +1,6 @@
 # Grammar of DataFrames
 
-A Python library built on top of pandas that empowers you to perform data analysis using a "grammar of" style. The core idea is to treat each DataFrame as a variable and to express operations—both within and across DataFrames—as transformations that yield new DataFrames. No hidden intermediates, just clear, functional-like data flows.
+A Python library built on top of pandas that empowers you to perform data analysis. The core idea is to treat each DataFrame as a variable and to express operations—both within and across DataFrames—as transformations that yield new DataFrames. We aim to use the "grammar of" style, where every transformation on a DataFrame is like constructing a sentence — each operation is a composable, self-contained "word" or "phrase" that converts one DataFrame to another. This makes your data analysis code expressive, modular, and intuitive, much like how the grammar of a language builds meaningful statements. No hidden intermediates, just clear, functional-like data flows.
 
 ## Core Principle
 
